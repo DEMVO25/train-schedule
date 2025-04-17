@@ -1,0 +1,128 @@
+.train-schedule {
+    margin-top: 1rem;
+    overflow-x: auto;
+  }
+  
+  .train-schedule table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 0.95rem;
+    background-color: #f9fafb;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .train-schedule th,
+  .train-schedule td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .train-schedule th {
+    background-color: #f3f4f6;
+    color: #111827;
+    font-weight: 600;
+  }
+  
+  .train-schedule tr:hover {
+    background-color: #f1f5f9;
+  }
+  
+  .train-schedule button {
+    padding: 4px 8px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    background-color: #f3f4f6; 
+    transition: background 0.2s;
+  }
+  
+  .train-schedule button:hover {
+    background-color: #e5e7eb; 
+  }
+  
+  .train-schedule button:first-of-type {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .train-schedule button:first-of-type:hover {
+    background-color: #dc2626;
+  }
+  
+  .train-schedule button:last-of-type {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .train-schedule button:last-of-type:hover {
+    background-color: #2563eb;
+  }
+  
+  .edit-form {
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    max-width: 600px;
+    margin: 2rem auto 0;
+    text-align: center;
+  }
+  
+  .edit-form h3 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    color: #111827;
+  }
+  
+  .edit-form input {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .edit-form input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  }
+  
+  .edit-form button {
+    padding: 0.6rem 1.2rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .edit-form button:first-of-type {
+    background-color: #10b981;
+    color: white;
+  }
+  
+  .edit-form button:first-of-type:hover {
+    background-color: #059669;
+  }
+  
+  .edit-form button:last-of-type {
+    background-color: #e5e7eb;
+    color: #374151;
+  }
+  
+  .edit-form button:last-of-type:hover {
+    background-color: #d1d5db;
+  }
+  
